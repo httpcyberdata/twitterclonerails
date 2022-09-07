@@ -1,24 +1,9 @@
-# README
+# Twitter clone app. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+What I built by following along to the tutorial.
+## Photo of the twitter clone app
 
-Things you may want to cover:
+- Built using Ruby on Rails 7.0.3.1 and Ruby 3.0.0
+- Tutorial URL: https://www.youtube.com/watch?v=5gUysPm64a4&t=2149s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![alt text](image.png "Twitter clone app")
