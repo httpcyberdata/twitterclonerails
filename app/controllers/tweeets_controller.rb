@@ -26,7 +26,7 @@ class TweeetsController < ApplicationController
 
     respond_to do |format|
       if @tweeet.save
-        format.html { redirect_to tweeet_url(@tweeet), notice: "Tweeet was successfully created." }
+        format.html { redirect_to root_path, notice: "Tweeet was successfully created." }
         format.json { render :show, status: :created, location: @tweeet }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -53,7 +53,7 @@ class TweeetsController < ApplicationController
     @tweeet.destroy
 
     respond_to do |format|
-      format.html { redirect_to tweeets_url, notice: "Tweeet was successfully destroyed." }
+      format.html { redirect_to tweeets_url, notice: 'Tweeet was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

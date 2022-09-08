@@ -28,11 +28,11 @@
                     <p><%= tweeet.tweeet %></p> 
                 </div>
                 <nav class="level">
-                    <div class="level-left is-mobile">
+                    <div class="level-left is-mobile is-dektop">
                         <%= link_to tweeet, class: "level-item" do %>
-                            <div class="icon">
-                                 <i class="fa fa-link"></i>
-                            </div>
+                            <span class="icon">
+                                 <i class="fa fa-link" "></i>
+                            </span>
                         <% end %>
                         <%= link_to edit_tweeet_path(tweeet), class: "level-item" do %>
                             <span class="icon">
