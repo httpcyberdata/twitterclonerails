@@ -8,5 +8,11 @@ What I built by following along to the tutorial.
 
 Issues: 
  - It's not responsive.
+ - ReadME contains multiple images (for users with slow internet)
 
-![alt text](image.png "Twitter clone app")
+![alt text](readme-images/image.png "Twitter clone app")
+
+
+How the sign_up_page turned out half-way through the completion of the project.
+![alt text](readme-images/sign_up_page_image.png "Twitter clone app")
+
