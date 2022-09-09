@@ -10,6 +10,12 @@ Issues:
  - It's not responsive.
  - ReadME contains multiple images (for users with slow internet)
 
+ ## Routes:
+ Routes and their uses.
+  /users/sign_up - User sign up.
+  /users/sign_in - User log in.
+  /tweeets/:id - View the tweet by specified ID.d
+
 ![alt text](readme-images/image.png "Twitter clone app")
 
 
